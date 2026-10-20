@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  background-image: url("spartak.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 220px;
+  font-family: Verdana, Geneva, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body.light {
+  background-color: #ffffff;
+}
+
+.calculator {
+  background: #E30613;
+  padding: 25px;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.my-btn {
+  margin-right: 5px;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  background: #ffffff;
+  color: #E30613;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Verdana, Geneva, sans-serif;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: top;
+  padding: 0;
+}
+
+.my-btn:hover {
+  background: #ffd6d9;
+}
+
+.my-btn:active {
+  filter: brightness(90%);
+}
+
+.my-btn.primary {
+  background: #000000;
+  color: #ffffff;
+}
+
+.my-btn.secondary {
+  background: #d9d9d9;
+  color: #000000;
+}
+
+.my-btn.execute {
+  width: 110px;
+}
+
+.result {
+  width: 220px;
+  height: 70px;
+  line-height: 70px;
+  margin-bottom: 15px;
+  padding-right: 10px;
+  border-radius: 12px;
+  background: #ffffff;
+  text-align: right;
+  color: #E30613;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.theme-btn,
+.github-btn {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 5px;
+  padding: 8px 14px;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  background: transparent;
+  color: #ffffff;
+  font-size: 0.9rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.theme-btn:hover,
+.github-btn:hover {
+  background: #ffffff;
+  color: #E30613;
+}
+
+.select {
+  display: block;
+  margin-top: 15px;
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.details {
+  margin-top: 15px;
+}
+
+.details p {
+  margin: 5px 0;
+  font-weight: 300;
+}
+
+.goal {
+  width: 230px;
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #ffd6d9;
+}
+
+mark {
+  background: #ffffff;
+  color: #E30613;
+}
+
+.footer {
+  margin: 15px 0 0 0;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #ffffff;
+}
